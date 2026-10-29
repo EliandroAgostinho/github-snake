@@ -16,7 +16,7 @@ jobs:
             ./output/github-snake.svg
             ./output/github-snake-dark.svg
       - name: Push snake animation
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: snake
           path: ./output
